@@ -1,4 +1,5 @@
 # GroupPolicyModule
 
-This is the native GroupPolicy module, couldn't find it anywhere online and for some reason everyone suggested installing RSAT or enabling the group policy windows feature...
-Just download both files, and Import-Module the .psd1 file and you're good to go.
+This is the native GroupPolicy module, there's no need for RSAT or any windows feature installation... it works as a "standalone".
+Just download the files, and import the GroupPolicy.psd1.
+If that doesn't work, probably need to Unblock-File * ; and then run a fresh powershell process and import the module.
